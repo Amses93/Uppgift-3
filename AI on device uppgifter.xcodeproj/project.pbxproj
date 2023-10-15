@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3443842ADC532F005F35DA /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3443832ADC532F005F35DA /* NextView.swift */; };
 		1A5A14AB2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A14AA2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift */; };
 		1A5A14AD2ACA1743002B1BD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A14AC2ACA1743002B1BD9 /* ContentView.swift */; };
 		1A5A14AF2ACA1744002B1BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A14AE2ACA1744002B1BD9 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3443832ADC532F005F35DA /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
 		1A5A14A72ACA1743002B1BD9 /* AI on device uppgifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI on device uppgifter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5A14AA2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_on_device_uppgifterApp.swift; sourceTree = "<group>"; };
 		1A5A14AC2ACA1743002B1BD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		1A5A14A92ACA1743002B1BD9 /* AI on device uppgifter */ = {
 			isa = PBXGroup;
 			children = (
+				1A3443832ADC532F005F35DA /* NextView.swift */,
 				1A5A14AA2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift */,
 				1A5A14AC2ACA1743002B1BD9 /* ContentView.swift */,
 				1A5A14AE2ACA1744002B1BD9 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				1A5A14AD2ACA1743002B1BD9 /* ContentView.swift in Sources */,
 				1A5A14AB2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift in Sources */,
+				1A3443842ADC532F005F35DA /* NextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
