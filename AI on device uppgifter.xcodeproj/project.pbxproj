@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A3443842ADC532F005F35DA /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3443832ADC532F005F35DA /* NextView.swift */; };
 		1A5A14AB2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A14AA2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift */; };
 		1A5A14AD2ACA1743002B1BD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A14AC2ACA1743002B1BD9 /* ContentView.swift */; };
 		1A5A14AF2ACA1744002B1BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A14AE2ACA1744002B1BD9 /* Assets.xcassets */; };
 		1A5A14B22ACA1744002B1BD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A14B12ACA1744002B1BD9 /* Preview Assets.xcassets */; };
+		1AE1D6002AE59323009D41E0 /* imageRecognizerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1D5FF2AE59323009D41E0 /* imageRecognizerModel.swift */; };
+		1AE1D6022AE597B7009D41E0 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1AE1D6012AE597B7009D41E0 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A3443832ADC532F005F35DA /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
 		1A5A14A72ACA1743002B1BD9 /* AI on device uppgifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI on device uppgifter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5A14AA2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_on_device_uppgifterApp.swift; sourceTree = "<group>"; };
 		1A5A14AC2ACA1743002B1BD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A5A14AE2ACA1744002B1BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A5A14B12ACA1744002B1BD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AE1D5FF2AE59323009D41E0 /* imageRecognizerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageRecognizerModel.swift; sourceTree = "<group>"; };
+		1AE1D6012AE597B7009D41E0 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				1A5A14A92ACA1743002B1BD9 /* AI on device uppgifter */,
+				1AE1D5FC2AE592BA009D41E0 /* AIModel */,
 				1A5A14A82ACA1743002B1BD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +56,6 @@
 		1A5A14A92ACA1743002B1BD9 /* AI on device uppgifter */ = {
 			isa = PBXGroup;
 			children = (
-				1A3443832ADC532F005F35DA /* NextView.swift */,
 				1A5A14AA2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift */,
 				1A5A14AC2ACA1743002B1BD9 /* ContentView.swift */,
 				1A5A14AE2ACA1744002B1BD9 /* Assets.xcassets */,
@@ -68,6 +70,15 @@
 				1A5A14B12ACA1744002B1BD9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AE1D5FC2AE592BA009D41E0 /* AIModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AE1D5FF2AE59323009D41E0 /* imageRecognizerModel.swift */,
+				1AE1D6012AE597B7009D41E0 /* Resnet50.mlmodel */,
+			);
+			path = AIModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +153,8 @@
 			files = (
 				1A5A14AD2ACA1743002B1BD9 /* ContentView.swift in Sources */,
 				1A5A14AB2ACA1743002B1BD9 /* AI_on_device_uppgifterApp.swift in Sources */,
-				1A3443842ADC532F005F35DA /* NextView.swift in Sources */,
+				1AE1D6022AE597B7009D41E0 /* Resnet50.mlmodel in Sources */,
+				1AE1D6002AE59323009D41E0 /* imageRecognizerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
