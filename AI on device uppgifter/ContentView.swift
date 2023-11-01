@@ -31,11 +31,11 @@ struct ContentView: View {
             Spacer()
             
             Button(action: {
-                if let image = UIImage(named: "cat") {
+                if let image = UIImage(named: "pickachu") {
                     result = imageRecognizer.doImage(image)
                 }
             }, label: {
-                Image(uiImage: .cat)
+                Image(uiImage: .pickachu)
                     .resizable()
                     .frame(width: 120, height: 80)
             })
@@ -43,11 +43,11 @@ struct ContentView: View {
             Spacer()
             
             Button(action: {
-                if let image = UIImage(named: "dog") {
+                if let image = UIImage(named: "snorlax") {
                     result = imageRecognizer.doImage(image)
                 }
             }, label: {
-                Image(uiImage: .dog)
+                Image(uiImage: .snorlax)
                     .resizable()
                     .frame(width: 80, height: 100)
             })

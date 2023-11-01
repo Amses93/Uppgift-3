@@ -15,16 +15,11 @@ class ImageRecognizerModel {
         let defaultConfig = MLModelConfiguration()
         
         // Create an instance of the image classifier's wrapper class.
-        let imageClassifierWrapper = try? Resnet50(configuration: defaultConfig)
-        
-        let theimage = image
-        let theimageBuffer = buffer(from: theimage)!
+        let imageClassifierWrapper = try? Pokemon(configuration: defaultConfig)
+        let theimageBuffer = buffer(from: image)!
         
         do {
             let output = try imageClassifierWrapper!.prediction(image: theimageBuffer)
-            
-            print(output.classLabel)
-            print(output.classLabelProbs[output.classLabel]!)
             
             result = output.classLabel
         } catch {
